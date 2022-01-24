@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ParliamentProject</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="partyBtn">Party List</string>
+    <string name="searchBtn">Search</string>
+    <string name="submitBtn">Submit</string>
+    <string name="commentPage">Comment Page</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--IDE Internal Error? T.T -->
+<!--Preview not available -->
+<!--Informed Peter -->
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="partyListViewModel"
+            type="com.example.parliamentprojectwithfragments.viewModels.OverviewViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragments.PartyListFragment"
+        android:background="#e0ffff">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/partyList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
